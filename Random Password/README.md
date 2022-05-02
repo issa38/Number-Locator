@@ -5,4 +5,5 @@ Its a little more secure than just a random amount of code but its nothing that 
 Sample of what the output looks like:
 <br>
 Your password is: IqpprFdz6A
+<br>
 Your password is: UO5LCdsAry
