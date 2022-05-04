@@ -2,8 +2,10 @@
 # Use the file name mbox-short.txt as the file name
 
 # Preparing for Wrong User Input
+fname = input("Enter file name: ")
+
 try:
-    fname = input("Enter file name: ")
+    fh = open(fname)
 except:
     print('Incorrect File Syntax or File Not Found')
     quit()
@@ -13,7 +15,7 @@ count = 0
 total = 0
 lcount = 0
 
-fh = open(fname)
+
 for line in fh:
     # Measures the number of the lines in the file.
     lcount = lcount + 1
